@@ -2,6 +2,8 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+/* Начало стилей шапки сайта */
+
 .header {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -59,3 +61,206 @@
         text-align: center;
     }
 }
+
+/* Коней стилей шапки сайта */
+
+/* Начало стилей основного контента сайта */
+
+/* Начало стилей постов */
+.main {
+    padding-top: 70px;
+    background: #F8F8F8;
+}
+
+.post {
+    border: 2px solid #eaeaea;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+.post_avatar {
+    padding: 15px 20px;
+}
+
+.post_avatar img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+.post a:nth-child(2) {
+    padding-left: 15px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.post_news-line {
+    width: 100%;
+}
+
+.post_news-line_icons {
+    font-size: 35px;
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 50%;
+}
+
+.post_news-line_icons i {
+    padding-right: 10px;
+}
+
+.post_news-line_icons:nth-child(4) {
+    text-align: right;
+}
+
+.post_news-line_likes-amount {
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.post_news-line_description {
+    padding-left: 20px;
+}
+
+.post_news-line_description a {
+    color: #000000;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.post_news-line_look-comments {
+    font-weight: bold;
+    color: #958E90;
+    padding-left: 20px;
+}
+
+.post_news-line_comments {
+    padding-left: 20px;
+}
+
+.post_news-line_comments a {
+    color: #000000;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.post_news-line_age-of-comment {
+    color: #958E90;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.post_news-line_add-comment input {
+    width: 100%;
+    border: 1px solid #eaeaea;
+    padding: 20px 25px;
+    outline: none;
+}
+
+.post_news-line_add-comment input::placeholder {
+    color: #958E90;
+}
+
+.post_news-line_add-comment button {
+    width: 100%;
+    color: rgba(56, 193, 223, .5);
+    text-align: center;
+    padding: 20px 25px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+@media screen and (max-width: 420px) {
+    .post_news-line_icons {
+        font-size: 24px;
+    }
+
+    .post_news-line_likes-amount {
+        font-size: 14px;
+    }
+
+    .post_news-line_description {
+        font-size: 14px;
+    }
+
+    .post_news-line_look-comments {
+        font-size: 14px;
+    }
+
+    .post_news-line_comments {
+        font-size: 14px;
+    }
+
+    .post_news-line_age-of-comment {
+        font-size: 10px;
+    }
+
+    .post_news-line_add input::placeholder {
+        font-size: 13px;
+    }
+}
+/* Конец стилей постов */
+
+/* Начало стилей списка подписчиков */
+.your-avatar_img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #F8F8F8;
+    border-radius: 50%;
+}
+
+.your-avatar_name {
+    padding-left: 15px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.your-subscribers {
+    width: 100%;
+    border: 2px solid #eaeaea;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 15px 15px;
+    background: #ffffff;
+}
+
+.your-subscribers p {
+    color: #958E90;
+    font-weight: bold;
+}
+
+.subscribes-avatar_img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #F8F8F8;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.subscribes-avatar_name {
+    padding-left: 15px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.hidden-menu {
+    display: none;
+}
+
+@media screen and (max-width: 991px){
+    .subscribers-list {
+        display: none;
+    }
+
+    .dropleft {
+        display: inline-block;
+    }
+}
+/* Конец стилей списка подписчиков */
+
+/* Конец стилей основного контента сайта */
