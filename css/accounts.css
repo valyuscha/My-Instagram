@@ -1,0 +1,109 @@
+/* Начало стилей описания пользователя */
+.awatar-userDescription {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #CBC4C6;
+}
+
+.avatar {
+    text-align: center;
+}
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .5);
+    margin-bottom: 50px;
+}
+
+.user-description_nickname-subscribers span {
+    font-size: 35px;
+    color: #6A6365;
+    margin-right: 50px;
+}
+
+.user-description_nickname-subscribers button {
+    padding: 7px 14px;
+    background: none;
+    border: 2px solid #E1E1E1;
+    border-radius: 5px;
+    outline: none;
+}
+
+.user-description button:hover {
+    background: #E1E1E1;
+}
+
+.user-description_publics-subscribers {
+    margin-top: 30px;
+}
+
+.user-description_publics-subscribers span {
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.user-description_name {
+    margin-top: 30px;
+}
+
+.user-description_name span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user-description_name p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.user-description_mutual-subscribers p {
+    color: #958E90;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.user-description_mutual-subscribers p span {
+    color: #333333;
+}
+/* Конец стилей описания пользователя */
+
+/* Начало стилей кнопок посты и отметки */
+.public-marks-buttons {
+    padding-bottom: 30px;
+}
+
+
+.public-marks-buttons button {
+    border: none;
+    background: none;
+    padding-top: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+}
+
+.public-button {
+    text-align: right;
+}
+
+.public-button button {
+    border-top: 1px solid #000000;
+    color: #333333;
+}
+
+.marks-button button {
+    color: #BCB5B7;
+}
+
+
+/* Конец стилей кнопок посты и отметки */
+
+/* Начало стилей публикаций */
+.publics img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+/* Начало стилей публикаций */

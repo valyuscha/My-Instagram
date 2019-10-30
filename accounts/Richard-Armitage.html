@@ -17,253 +17,131 @@
     <script src="https://kit.fontawesome.com/9b12492f8c.js" crossorigin="anonymous"></script>
 
     <!-- Подключаем css стили -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/accounts.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
 <!-- Начало Header страницы -->
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <!-- Логотип -->
-                <div class="header_logo col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                    <img src="images/logo.jpg" alt="">
-                </div>
-                <!-- Поиск людей -->
-                <div class="header_input col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                    <i class="fas fa-search"></i>
-                    <input type="text" placeholder="Поиск">
-                </div>
-                <!-- Иконки-ссылки на твою личную информацию -->
-                <div class="header-icons col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                    <i class="far fa-compass"></i>
-                    <i class="far fa-heart"></i>
-                    <a class="header-icons_your-page" href="accounts/Richard-Armitage.html"><i class="far fa-user"></i></a>
-                </div>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <!-- Логотип -->
+            <div class="header_logo col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <a href="../index.html"><img src="../images/logo.jpg" alt=""></a>
+            </div>
+            <!-- Поиск людей -->
+            <div class="header_input col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Поиск">
+            </div>
+            <!-- Иконки-ссылки на твою личную информацию -->
+            <div class="header-icons col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <i class="far fa-compass"></i>
+                <i class="far fa-heart"></i>
+                <a class="header-icons_your-page" href="Richard-Armitage.html"><i class="far fa-user"></i></a>
             </div>
         </div>
-    </header>
+    </div>
+</header>
 <!-- Конец Header страницы -->
 
 <!-- Начало основного контента -->
 <main class="main">
     <div class="container">
-        <div class="row">
-            <!-- Посты новостной ленты - начало -->
-            <div class="col-lg-8 col-md-11">
+        <div class="row awatar-userDescription">
+            <!-- Аватарка пользователя -->
+            <div class="avatar col-lg-4">
+                <img src="../images/Richard-Armitage-account/avatar.jpg" alt="">
+            </div>
+            <!-- Начало описания пользователя -->
+            <div class="col-lg-8 user-description">
 
-                <!-- Начало первого поста -->
-                <div class="post">
-
-                    <!-- Аватарка пользователя с его никнеймом - начало -->
-                    <div class="post_avatar">
-                        <a href="accounts/Richard-Armitage.html"><img src="images/Richard-Armitage-account/avatar.jpg" alt=""></a>
-                        <a href="accounts/Richard-Armitage.html">Richard_Armitage</a>
-                    </div>
-                    <!-- Аватарка пользователя с его никнеймом - конец -->
-
-                    <!-- Фото поста -->
-                    <img class="post_news-line" src="images/News-line-publics/Richard-Armitage.jpg" alt="">
-
-                    <!-- Иконки под постом (дайк, поделится...) - начало -->
-                    <div class="post_news-line_icons">
-                        <i id="post-like" class="far fa-heart"></i>
-                        <i class="far fa-comment"></i>
-                        <i class="fas fa-level-up-alt"></i>
-                    </div>
-                    <!-- Иконки под постом (дайк, поделится...) - конец -->
-
-                    <!-- Колличество лайков -->
-                    <p class="post_news-line_likes-amount">22 054 отметок "Нравится"</p>
-
-                    <!-- Описание поста -->
-                    <p class="post_news-line_description"><a href="accounts/Richard-Armitage.html">Richard_Armitage</a>These eyes...</p>
-
-                    <!-- Предложение посмотреть все комментарии -->
-                    <p class="post_news-line_look-comments">Посмотреть все комментарии (15 024)</p>
-
-                    <!-- Последний комментарий -->
-                    <p class="post_news-line_comments"><a href="accounts/Isabella-Scorupco.html">Izabella_Scorupco</a>I love love love it!</p>
-
-                    <!-- Время когда был выложен пост -->
-                    <p class="post_news-line_age-of-comment">ЧАС НАЗАД</p>
-
-                    <!-- Форма для добавления своего комментария - начало -->
-                    <div class="post_news-line_add-comment">
-                        <input type="text" placeholder="Добавьте коментарий...">
-                        <button>Опубликовать</button>
-                    </div>
-                    <!-- Форма для добавления своего комментария - конец -->
-
+                <!-- Никнейм пользователя и ваш статус (подписки/подписаться) - начало -->
+                <div class="user-description_nickname-subscribers">
+                    <!-- Никнейм пользователя -->
+                    <span>Richard_Armitage</span>
+                    <button>Подписки</button>
+                    <button><i class="fas fa-angle-down"></i></button>
                 </div>
-                <!-- Конец первого поста -->
+                <!-- Никнейм пользователя и ваш статус (подписки/подписаться) - конец -->
 
-                <!-- Начало второго поста -->
-                <div class="post">
-
-                    <!-- Аватарка пользователя с его никнеймом - начало -->
-                    <div class="post_avatar">
-                        <a href="accounts/Isabella-Scorupco.html"><img src="images/Izabella-Scorupco-account/avatar.jpg" alt=""></a>
-                        <a href="#!">Izabella_Scorupco</a>
-                    </div>
-                    <!-- Аватарка пользователя с его никнеймом - конец -->
-
-                    <!-- Фото поста -->
-                    <img class="post_news-line" src="images/News-line-publics/Izabella-Scorupco.jpg" alt="">
-
-                    <!-- Иконки под постом (дайк, поделится...) - начало -->
-                    <div class="post_news-line_icons">
-                        <i class="far fa-heart"></i>
-                        <i class="far fa-comment"></i>
-                        <i class="fas fa-level-up-alt"></i>
-                    </div>
-                    <!-- Иконки под постом (дайк, поделится...) - конец -->
-
-                    <!-- Колличество лайков -->
-                    <p class="post_news-line_likes-amount">21 005 отметок "Нравится"</p>
-
-                    <!-- Описание поста -->
-                    <p class="post_news-line_description"><a href="accounts/Isabella-Scorupco.html">Izabella_Scorupco</a>These eyes...</p>
-
-                    <!-- Предложение посмотреть все комментарии -->
-                    <p class="post_news-line_look-comments">Посмотреть все комментарии (15 024)</p>
-
-                    <!-- Последний комментарий -->
-                    <p class="post_news-line_comments"><a href="accounts/Richard-Armitage.html">Richard_Armitage</a>Who is so beautiful?</p>
-
-                    <!-- Время когда был выложен пост -->
-                    <p class="post_news-line_age-of-comment">3 ЧАСА НАЗАД</p>
-
-                    <!-- Форма для добавления своего комментария - начало -->
-                    <div class="post_news-line_add-comment">
-                        <input type="text" placeholder="Добавьте коментарий...">
-                        <button>Опубликовать</button>
-                    </div>
-                    <!-- Форма для добавления своего комментария - конец -->
-
+                <!-- Публикации, подписчики, подписки - начало -->
+                <div class="user-description_publics-subscribers">
+                    <span><b>10</b> публикаций</span>
+                    <span><b>11млн</b> подписчиков</span>
+                    <span>Подписки: <b>100</b></span>
                 </div>
-                <!-- Конец второго поста -->
+                <!-- Публикации, подписчики, подписки - конец -->
 
-                <!-- Начало третьего поста -->
-                <div class="post">
-
-                    <!-- Аватарка пользователя с его никнеймом - начало -->
-                    <div class="post_avatar">
-                        <a href="accounts/Burak-Ozchevit.html"><img src="images/Burak-Ozchevit-account/avatar.jpg" alt=""></a>
-                        <a href="accounts/Burak-Ozchevit.html">Burak_Ozchevit</a>
-                    </div>
-                    <!-- Аватарка пользователя с его никнеймом - конец -->
-
-                    <!-- Фото поста -->
-                    <img class="post_news-line" src="images/News-line-publics/Burak-Ozchevit.jpg" alt="">
-
-                    <!-- Иконки под постом (дайк, поделится...) - начало -->
-                    <div class="post_news-line_icons">
-                        <i class="far fa-heart"></i>
-                        <i class="far fa-comment"></i>
-                        <i class="fas fa-level-up-alt"></i>
-                    </div>
-                    <!-- Иконки под постом (дайк, поделится...) - конец -->
-
-                    <!-- Колличество лайков -->
-                    <p class="post_news-line_likes-amount">25 000 отметок "Нравится"</p>
-
-                    <!-- Описание поста -->
-                    <p class="post_news-line_description"><a href="#!">Burak_Ozchevit</a>These eyes...</p>
-
-                    <!-- Предложение посмотреть все комментарии -->
-                    <p class="post_news-line_look-comments">Посмотреть все комментарии (15 024)</p>
-
-                    <!-- Последний комментарий -->
-                    <p class="post_news-line_comments"><a href="#!">Richard_Armitage</a>You aren't more beautiful than me)</p>
-
-                    <!-- Время когда был выложен пост -->
-                    <p class="post_news-line_age-of-comment">10 ЧАСОВ НАЗАД</p>
-
-                    <!-- Форма для добавления своего комментария - начало -->
-                    <div class="post_news-line_add-comment">
-                        <input type="text" placeholder="Добавьте коментарий...">
-                        <button>Опубликовать</button>
-                    </div>
-                    <!-- Форма для добавления своего комментария - конец -->
-
+                <!-- Имя + информация о пользователе - начало -->
+                <div class="user-description_name">
+                    <span>Richard Armitage</span>
+                    <p>Заслуженный британский актёр</p>
                 </div>
-                <!-- Конец третьего поста -->
+                <!-- Имя + информация о пользователе - конец -->
+
+                <!-- Общие подписчики - начало -->
+                <div class="user-description_mutual-subscribers">
+                    <p>Подписаны <span>Burak_Ozchevit</span> + ещё 7</p>
+                </div>
+                <!-- Общие подписчики - конец -->
 
             </div>
-            <!-- Посты новостной ленты - конец -->
-
-            <!-- Список твоих подписчиков - начало -->
-            <div class="subscribers-list col-lg-4 col-md-1">
-
-                <!-- Твоя аватарка с твоим никнеймом - начало -->
-                <div class="your-avatar">
-                    <a href="accounts/Richard-Armitage.html"><img class="your-avatar_img" src="images/Richard-Armitage-account/avatar.jpg" alt=""></a>
-                    <a class="your-avatar_name" href="accounts/Richard-Armitage.html">Richard_Armitage</a>
-                </div>
-                <!-- Твоя аватарка с твоим никнеймом - конец -->
-
-                <div class="your-subscribers">
-                    <p>Ваши подписчики</p>
-
-                    <!-- Аватарка и никнейм подписчика - начало -->
-                    <div class="subscribes-avatar">
-                        <a href="accounts/Isabella-Scorupco.html"><img class="subscribes-avatar_img" src="images/Izabella-Scorupco-account/avatar.jpg" alt=""></a>
-                        <a class="subscribes-avatar_name" href="accounts/Isabella-Scorupco.html">Izabella_Scorupco</a>
-                    </div>
-                    <!-- Аватарка и никнейм подписчика - конец -->
-
-                    <!-- Аватарка и никнейм подписчика - начало -->
-                    <div class="subscribes-avatar">
-                        <a href="accounts/Burak-Ozchevit.html"><img class="subscribes-avatar_img" src="images/Burak-Ozchevit-account/avatar.jpg" alt=""></a>
-                        <a class="subscribes-avatar_name" href="accounts/Burak-Ozchevit.html">Burak_Ozchevit</a>
-                    </div>
-                    <!-- Аватарка и никнейм подписчика - конец -->
-
-                </div>
-
-                <!-- Выпадающее меню списка подписчиков - начало -->
-                <div class="hidden-menu btn-group dropleft">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <div class="hidden-menu_your-avatar">
-                            <a href="accounts/Richard-Armitage.html"><img class="hidden-menu_your-avatar_img" src="images/Richard-Armitage-account/avatar.jpg" alt=""></a>
-                        </div>
-                    </button>
-                    <div class="dropdown-menu">
-                        <!-- Список твоих подписчиков - начало -->
-                        <div class="hidden-menu_your-subscribers">
-                            <p>Ваши подписчики</p>
-
-                            <!-- Аватарка и никнейм подписчика - начало -->
-                            <div class="hidden-menu_subscribes-avatar">
-                                <a href="#!"><img class="hidden-menu_subscribes-avatar_img" src="images/Izabella-Scorupco-account/avatar.jpg" alt=""></a>
-                                <a class="hidden-menu_subscribes-avatar_name" href="#!">Izabella_Scorupco</a>
-                            </div>
-                            <!-- Аватарка и никнейм подписчика - конец -->
-
-                            <!-- Аватарка и никнейм подписчика - начало -->
-                            <div class="hidden-menu_subscribes-avatar">
-                                <a href="#!"><img class="hidden-menu_subscribes-avatar_img" src="images/Burak-Ozchevit-account/avatar.jpg" alt=""></a>
-                                <a class="hidden-menu_subscribes-avatar_name" href="accounts/Burak-Ozchevit.html">Burak_Ozchevit</a>
-                            </div>
-                            <!-- Аватарка и никнейм подписчика - конец -->
-
-                        </div>
-                        <!-- Список твоих подписчиков - конец -->
-                    </div>
-                </div>
-                <!-- Выпадающее меню списка подписчиков - конец -->
-
-            </div>
-            <!-- Список твоих подписчиков - конец -->
+            <!-- Конец описания пользователя -->
 
         </div>
+
+        <!-- Кнопки публикации и отметок - начало -->
+        <div class="row public-marks-buttons">
+            <!-- Кнопка публикаций -->
+            <div class="public-button col-lg-6 col-md-6 col-sm-6 col-6">
+                <button><i class="fas fa-ellipsis-h"></i> Публикации</button>
+            </div>
+            <!-- Кнопка отметок -->
+            <div class="marks-button col-lg-6 col-md-6 col-sm-6 col-6">
+                <button><i class="fas fa-user-circle"></i> Отметки</button>
+            </div>
+        </div>
+        <!-- Кнопки публикации и отметок - конец -->
+
+        <!-- Начало списка публикаций -->
+        <div class="row publics">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="../images/Richard-Armitage-account/post1.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="../images/Richard-Armitage-account/post2.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="../images/Richard-Armitage-account/post3.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="../images/Richard-Armitage-account/post4.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="../images/Richard-Armitage-account/post5.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="../images/Richard-Armitage-account/post6.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="../images/Richard-Armitage-account/post7.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="../images/Richard-Armitage-account/post8.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="../images/Richard-Armitage-account/post9.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="../images/Richard-Armitage-account/post10.png" alt="">
+            </div>
+        </div>
+        <!-- Конец списка публикаций -->
     </div>
 </main>
 <!-- Конец основного контента -->
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
