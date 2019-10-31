@@ -64,7 +64,7 @@
     font-size: 15px;
 }
 
-.user-description_mutual-subscribers p span {
+.user-description_mutual-subscribers p a {
     color: #333333;
 }
 /* Конец стилей описания пользователя */
