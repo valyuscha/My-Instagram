@@ -216,6 +216,12 @@
 /* Конец стилей постов */
 
 /* Начало стилей списка подписчиков */
+.subscribers-list {
+    /*position: fixed;*/
+    /*right: 140px;*/
+    /*max-width: 25%;*/
+}
+
 .your-avatar_img {
     width: 70px;
     height: 70px;
