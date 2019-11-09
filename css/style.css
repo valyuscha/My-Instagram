@@ -43,7 +43,7 @@
     text-align: right;
 }
 
-.header-icons_your-page {
+.header-icons_your-page-subscribers {
     color: #1E1E1E;
 }
 
@@ -217,9 +217,7 @@
 
 /* Начало стилей списка подписчиков */
 .subscribers-list {
-    /*position: fixed;*/
-    /*right: 140px;*/
-    /*max-width: 25%;*/
+    margin-bottom: 100px;
 }
 
 .your-avatar_img {
