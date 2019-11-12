@@ -269,6 +269,11 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 991px){
+    .subscribers-list {
+        display: none;
+    }
+}
 /* Конец стилей списка подписчиков */
 
 /* Конец стилей основного контента сайта */
