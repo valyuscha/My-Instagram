@@ -269,19 +269,6 @@
     font-weight: bold;
 }
 
-.hidden-menu {
-    display: none;
-}
-
-@media screen and (max-width: 991px){
-    .subscribers-list {
-        display: none;
-    }
-
-    .dropleft {
-        display: inline-block;
-    }
-}
 /* Конец стилей списка подписчиков */
 
 /* Конец стилей основного контента сайта */
