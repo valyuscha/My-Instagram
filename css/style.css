@@ -1,5 +1,13 @@
+/* Подключаем стили */
+@font-face {
+    font-family: "fonts/Noto_Sans";
+    src: url("../fonts/Noto_Sans/NotoSans-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 * {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "fonts/Noto_Sans";
 }
 
 .container {
